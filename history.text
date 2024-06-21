@@ -1,0 +1,190 @@
+    1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  df -h
+   44  sudo apt update
+   45  sudo apt upgrade
+   46  sudo reboot
+   47  mkdir test
+   48  cd
+   49  cd test
+   50  pwd
+   51  ls
+   52  vi test
+   53  mkdir test
+   54  mkdir test1
+   55  cd test1
+   56  ls
+   57  cd .
+   58  cd test
+   59  mkdir linux
+   60  cd linux
+   61  ls
+   62  rkdir test1
+   63  rkdir test
+   64  rkdir linux
+   65  rmdir linux
+   66  rmdir test
+   67  rmdir test1
+   68  ls
+   69  ls-a
+   70  ls -1
+   71  mkdir linux
+   72  cd linux
+   73  pwd
+   74  cat > linux
+   75  cat linux.txt
+   76  ls
+   77  ls -a
+   78  pwd
+   79  mkdir test1
+   80  cd test1
+   81  pwed
+   82  pwd
+   83  cat > test1
+   84  cat test.txt
+   85  cat
+   86  history
+   87  history
+   88  exit
+   89  mkdir linux
+   90  cd linux
+   91  cd ..
+   92  cd linux
+   93  pwd
+   94  ls
+   95  mkdir test
+   96  ls
+   97  mkdir linux
+   98  li
+   99  ls
+  100  mkdir
+  101  ls
+  102  cat >linux.txt
+  103  history 
+  104  pwd
+  105  cat linux.txt
+  106  vi
+  107  pwd
+  108  cd linux
+  109  ls
+  110  cd ..
+  111  cd linux
+  112  cat
+  113  mkdir mouni
+  114  cd mouni
+  115  pwd
+  116  ls
+  117  mkdir mouni1
+  118  ls
+  119  cat
+  120  vi
+  121  open
+  122  open mouni
+  123  touch
+  124  touch linux
+  125  ls
+  126  vi linux
+  127  ls
+  128  open linux
+  129  open file
+  130  open mouni
+  131  cat linux
+  132  cp linux file1
+  133  cat file1
+  134  ls
+  135  open file1
+  136  find mouni1
+  137  echo
+  138  echo hello
+  139  cat
+  140  vi
+  141  mkdir mounii
+  142  cd mounii
+  143  pwd
+  144  ls
+  145  echo hi
+  146  cd mounii1
+  147  mkdir mounii1
+  148  ls
+  149  cd mouni
+  150  cd mounii
+  151  cd ..
+  152  ls
+  153  cat
+  154  mv file1 mouni
+  155  touch file2
+  156  cp mouni file2
+  157  sudo
+  158  passwd
+  159  ping
+  160  rmdir mouni
+  161  pwd
+  162  rmdir linux
+  163  pwd
+  164  ls
+  165  rmdir mounii
+  166  rmdir
+  167  help rmdir
+  168  rmdir mouni
+  169  pwd
+  170  clear
+  171  ls
+  172  rmdir 1
+  173  rm mouni
+  174  ls
+  175  rm mounii
+  176  cd >>
+  177  cd
+  178  cd ..
+  179  ls
+  180  cd mouni
+  181  history
+  182  history >> history1.txt
+  183  history >>history.txt
+  184  ls
+  185  history >>history.txt touch historycommand.txt ls history >>hisitorycomman.txt
+  186  cd rps
+  187  ls
+  188  history >.history.txt
+  189  history >>history.txt touch historycommand.txt ls history >>historycommand.txt
+  190  history >>history.text
